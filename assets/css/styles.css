@@ -354,6 +354,7 @@ a.block__photo:hover img { transform: scale(1.03); }
 .block__info { display: flex; flex-direction: column; gap: 24px; }
 .block__head { display: flex; flex-direction: column; gap: 12px; }
 .course-icon { width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; }
+.block__head .course-icon, .course-hero__info .course-icon { align-self: center; }
 .course-icon img { width: 80px; height: 80px; }
 .course-icon--static img { width: 50px; height: 50px; opacity: .72; }
 .block__meta { display: flex; flex-direction: column; gap: 6px; color: var(--ac-text-accent); }
