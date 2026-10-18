@@ -295,7 +295,9 @@ def page(fname, title, desc, active, body, extra_body_class="", noindex=False, h
 <meta property="og:image" content="{SITE_URL}assets/img/hero.jpg">
 <meta property="og:locale" content="ru_RU">
 <meta name="theme-color" content="#644336">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="assets/svg/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="preload" href="assets/fonts/lora-cyrillic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/fonts.css">
 <link rel="stylesheet" href="assets/css/tokens.css">
