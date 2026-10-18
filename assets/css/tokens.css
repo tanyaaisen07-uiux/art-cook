@@ -1,0 +1,151 @@
+/* ART COOK design tokens
+ * Source: Figma 2-ART-COOK, collections AC Primitives / AC Color / AC Layout, text styles AC/Desktop/* and AC/Mobile/*
+ * Mobile type applies below 768px (tablet uses mobile type, as in the design).
+ */
+
+:root {
+  /* AC Primitives */
+  --ac-color-brown-900: #4A3128;
+  --ac-color-brown-800: #5B3D31;
+  --ac-color-brown-700: #644336;
+  --ac-color-orange-700: #A86130;
+  --ac-color-orange-500: #CA753A;
+  --ac-color-orange-400: #F1A036;
+  --ac-color-orange-300: #F3AE54;
+  --ac-color-orange-350: #ED9C36;
+  --ac-color-orange-100: #F9D4A5;
+  --ac-color-beige-300: #ECD1A7;
+  --ac-color-beige-100: #F6EAD7;
+  --ac-color-cream-50: #FCF9F3;
+  --ac-color-red-600: #DE361F;
+  --ac-color-red-500: #E53820;
+  --ac-color-sage-700: #5B7D72;
+  --ac-color-sage-500: #63887C;
+  --ac-color-sage-100: #DDEDE8;
+  --ac-color-gray-900: #1C1C1D;
+  --ac-color-gray-800: #292929;
+  --ac-color-gray-700: #505050;
+  --ac-color-gray-600: #6D7170;
+  --ac-color-gray-300: #B7C1C1;
+  --ac-color-gray-100: #F2F2F2;
+  --ac-color-gray-50: #F9F9F9;
+  --ac-color-white: #FFFFFF;
+  /* AC Color */
+  --ac-bg-page: var(--ac-color-white);
+  --ac-bg-section: var(--ac-color-cream-50);
+  --ac-bg-surface: var(--ac-color-gray-50);
+  --ac-bg-muted: var(--ac-color-gray-100);
+  --ac-bg-footer: var(--ac-color-brown-700);
+  --ac-bg-accent: var(--ac-color-orange-400);
+  --ac-bg-accent-soft: var(--ac-color-beige-100);
+  --ac-text-heading: var(--ac-color-brown-700);
+  --ac-text-body: var(--ac-color-gray-700);
+  --ac-text-muted: var(--ac-color-gray-600);
+  --ac-text-primary: var(--ac-color-gray-900);
+  --ac-text-accent: var(--ac-color-orange-700);
+  --ac-text-accent-large: var(--ac-color-orange-500);
+  --ac-text-inverse: var(--ac-color-white);
+  --ac-text-inverse-accent: var(--ac-color-beige-300);
+  --ac-text-on-accent: var(--ac-color-brown-800);
+  --ac-text-error: var(--ac-color-red-600);
+  --ac-text-success: var(--ac-color-sage-700);
+  --ac-text-highlight: var(--ac-color-red-600);
+  --ac-border-default: var(--ac-color-beige-300);
+  --ac-border-input: var(--ac-color-orange-500);
+  --ac-border-strong: var(--ac-color-brown-700);
+  --ac-border-focus: var(--ac-color-orange-700);
+  --ac-border-error: var(--ac-color-red-600);
+  --ac-action-primary-bg: var(--ac-color-orange-400);
+  --ac-action-primary-bg-hover: var(--ac-color-orange-300);
+  --ac-action-primary-bg-pressed: var(--ac-color-orange-350);
+  --ac-action-primary-bg-disabled: var(--ac-color-orange-100);
+  --ac-action-primary-text: var(--ac-color-brown-800);
+  --ac-action-secondary-bg: var(--ac-color-white);
+  --ac-action-secondary-bg-hover: var(--ac-color-cream-50);
+  --ac-action-secondary-border: var(--ac-color-orange-500);
+  --ac-action-secondary-text: var(--ac-color-brown-700);
+  --ac-action-link: var(--ac-color-orange-700);
+  --ac-icon-accent: var(--ac-color-orange-500);
+  --ac-icon-default: var(--ac-color-brown-700);
+  --ac-icon-inverse: var(--ac-color-white);
+  /* AC Layout */
+  --ac-space-0: 0px;
+  --ac-space-5: 5px;
+  --ac-space-10: 10px;
+  --ac-space-20: 20px;
+  --ac-space-30: 30px;
+  --ac-space-40: 40px;
+  --ac-space-50: 50px;
+  --ac-space-60: 60px;
+  --ac-space-80: 80px;
+  --ac-space-100: 100px;
+  --ac-space-150: 150px;
+  --ac-space-200: 200px;
+  --ac-radius-none: 0px;
+  --ac-radius-sm: 4px;
+  --ac-radius-full: 999px;
+  --ac-border-width-default: 1px;
+  --ac-border-width-strong: 2px;
+  --ac-grid-desktop-columns: 12;
+  --ac-grid-desktop-gutter: 30px;
+  --ac-grid-desktop-margin: 165px;
+  --ac-grid-desktop-content: 1110px;
+  --ac-grid-tablet-columns: 8;
+  --ac-grid-tablet-gutter: 24px;
+  --ac-grid-tablet-margin: 40px;
+  --ac-grid-mobile-columns: 4;
+  --ac-grid-mobile-gutter: 16px;
+  --ac-grid-mobile-margin: 20px;
+  --ac-breakpoint-mobile: 375px;
+  --ac-breakpoint-mobile-min: 320px;
+  --ac-breakpoint-tablet: 768px;
+  --ac-breakpoint-desktop: 1440px;
+  --ac-motion-duration-fast: 200ms;
+  --ac-motion-duration-base: 300ms;
+  --ac-motion-duration-icon-loop: 2920ms;
+  --ac-motion-easing-standard: cubic-bezier(0, 0, 0.2, 1);
+}
+
+/* Typography: desktop */
+.ac-display { font-family: 'Lora', Georgia, serif; font-weight: 400; font-size: 72px; line-height: 80px; }
+.ac-h1 { font-family: 'Lora', Georgia, serif; font-weight: 400; font-size: 52px; line-height: 62px; }
+.ac-h2 { font-family: 'Lora', Georgia, serif; font-weight: 400; font-size: 40px; line-height: 50px; }
+.ac-h3 { font-family: 'Lora', Georgia, serif; font-weight: 400; font-size: 30px; line-height: 40px; }
+.ac-h4 { font-family: 'Lora', Georgia, serif; font-weight: 500; font-size: 24px; line-height: 32px; }
+.ac-h5 { font-family: 'Lora', Georgia, serif; font-weight: 700; font-size: 20px; line-height: 28px; }
+.ac-body-l { font-family: 'Lora', Georgia, serif; font-weight: 400; font-size: 20px; line-height: 32px; }
+.ac-body { font-family: 'Lora', Georgia, serif; font-weight: 400; font-size: 18px; line-height: 30px; }
+.ac-body-s { font-family: 'Lora', Georgia, serif; font-weight: 400; font-size: 16px; line-height: 26px; }
+.ac-caption { font-family: 'Lora', Georgia, serif; font-weight: 400; font-size: 14px; line-height: 22px; }
+.ac-overline { font-family: 'Lora', Georgia, serif; font-weight: 500; font-size: 13px; line-height: 18px; letter-spacing: 0.12em; text-transform: uppercase; }
+.ac-button { font-family: 'Lora', Georgia, serif; font-weight: 700; font-size: 16px; line-height: 24px; letter-spacing: 0.01em; text-transform: uppercase; }
+.ac-link { font-family: 'Lora', Georgia, serif; font-weight: 500; font-size: 16px; line-height: 24px; letter-spacing: 0.01em; text-transform: uppercase; }
+.ac-nav { font-family: 'Lora', Georgia, serif; font-weight: 400; font-size: 18px; line-height: 24px; }
+
+@media (max-width: 767.98px) {
+  .ac-display { font-weight: 400; font-size: 34px; line-height: 40px; }
+  .ac-h1 { font-weight: 400; font-size: 30px; line-height: 36px; }
+  .ac-h2 { font-weight: 400; font-size: 26px; line-height: 32px; }
+  .ac-h3 { font-weight: 400; font-size: 22px; line-height: 28px; }
+  .ac-h4 { font-weight: 500; font-size: 20px; line-height: 26px; }
+  .ac-h5 { font-weight: 700; font-size: 18px; line-height: 24px; }
+  .ac-body-l { font-weight: 400; font-size: 18px; line-height: 28px; }
+  .ac-body { font-weight: 400; font-size: 16px; line-height: 26px; }
+  .ac-body-s { font-weight: 400; font-size: 15px; line-height: 24px; }
+  .ac-caption { font-weight: 400; font-size: 13px; line-height: 20px; }
+  .ac-overline { font-weight: 500; font-size: 12px; line-height: 16px; letter-spacing: 0.12em; text-transform: uppercase; }
+  .ac-button { font-weight: 700; font-size: 16px; line-height: 24px; letter-spacing: 0.01em; text-transform: uppercase; }
+  .ac-link { font-weight: 500; font-size: 15px; line-height: 22px; letter-spacing: 0.01em; text-transform: uppercase; }
+  .ac-nav { font-weight: 400; font-size: 22px; line-height: 30px; letter-spacing: 0.01em; }
+}
+
+/* Motion */
+@media (prefers-reduced-motion: reduce) {
+  :root { --ac-motion-duration-fast: 0ms; --ac-motion-duration-base: 0ms; }
+}
+
+/* Focus ring (variant Focus in Figma) */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 3px solid var(--ac-border-focus);
+  outline-offset: 2px;
+}

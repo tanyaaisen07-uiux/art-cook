@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tanyaaisen07-uiux.github.io/art-cook/sitemap.xml

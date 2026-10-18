@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Курсы | ART COOK</title>
+<meta name="description" content="Кулинарные курсы ART COOK в Алматы: для начинающих, тематические и индивидуальные. Даты занятий подбираются индивидуально.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Курсы | ART COOK">
+<meta property="og:description" content="Кулинарные курсы ART COOK в Алматы: для начинающих, тематические и индивидуальные. Даты занятий подбираются индивидуально.">
+<meta property="og:image" content="https://tanyaaisen07-uiux.github.io/art-cook/assets/img/hero.jpg">
+<meta property="og:locale" content="ru_RU">
+<meta name="theme-color" content="#644336">
+<link rel="icon" href="assets/svg/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/lora-cyrillic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="">
+<a class="skip-link" href="#main">Перейти к содержанию</a>
+<header class="header">
+  <div class="header__bar">
+    <a class="header__logo" href="index.html" aria-label="ART COOK, на главную"><img src="assets/svg/logo.svg" alt="ART COOK" width="100" height="100"></a>
+    <nav class="nav" aria-label="Основное меню"><a href="about.html">О школе</a><a href="courses.html" aria-current="page">Курсы</a><a href="master-classes.html">Мастер-классы</a><a href="prices.html">Цены</a><a href="gift.html">Сертификаты</a><a href="contacts.html">Контакты</a></nav>
+    <div class="header__contact"><a class="header__phone" href="tel:+77010000000">+7 701 000 00 00</a><button type="button" class="header__callback" data-open="callback">Обратный звонок</button></div>
+    <a class="btn btn--primary header__cta" href="booking.html" >Записаться</a>
+    <span class="header__spacer"></span>
+    <a class="header__icon-btn" href="tel:+77010000000" aria-label="Позвонить +7 701 000 00 00"><svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#phone"></use></svg></a>
+    <button type="button" class="header__icon-btn" aria-label="Открыть меню" aria-expanded="false" aria-controls="menu" data-menu-open><svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#menu"></use></svg></button>
+  </div>
+</header>
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Меню">
+  <div class="menu__bar"><a href="index.html" aria-label="На главную"><img src="assets/svg/logo.svg" alt="ART COOK" width="56" height="56"></a><span class="header__spacer"></span><button type="button" class="header__icon-btn" aria-label="Закрыть меню" data-menu-close style="display:inline-flex"><svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#close"></use></svg></button></div>
+  <nav class="menu__list" aria-label="Меню"><a href="about.html">О школе<svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#chevron-right"></use></svg></a><a href="courses.html" aria-current="page">Курсы<svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#chevron-right"></use></svg></a><a href="master-classes.html">Мастер-классы<svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#chevron-right"></use></svg></a><a href="prices.html">Цены<svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#chevron-right"></use></svg></a><a href="gift.html">Сертификаты<svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#chevron-right"></use></svg></a><a href="contacts.html">Контакты<svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#chevron-right"></use></svg></a></nav>
+  <div class="menu__actions">
+    <a class="btn btn--primary btn--block" href="booking.html" >Записаться</a>
+    <button type="button" class="btn btn--secondary btn--block" data-open="callback">Обратный звонок</button>
+    <a class="menu__phone" href="tel:+77010000000">+7 701 000 00 00</a>
+    <p class="menu__addr">г. Алматы, ул. Весновка 65</p>
+  </div>
+</div>
+<main id="main">
+
+<section class="section section--intro">
+  <div class="container stack-60">
+    <nav class="crumbs" aria-label="Хлебные крошки"><a href="index.html">Главная</a><span aria-hidden="true">/</span><span aria-current="page">Курсы</span></nav>
+    <div class="sh"><h1 class="h2">Курсы ART COOK</h1><span class="sh__divider" aria-hidden="true"></span><p class="sh__subtitle">Кулинарные курсы для начинающих и домашних поваров.<br>Даты занятий подбираются индивидуально.</p></div>
+    <div class="stack gap-20">
+      <div class="chips" role="group" aria-label="Фильтр курсов"><button type="button" class="chip" data-filter="all" aria-pressed="true">Все</button><button type="button" class="chip" data-filter="beginner" aria-pressed="false">Для начинающих</button><button type="button" class="chip" data-filter="thematic" aria-pressed="false">Тематические</button><button type="button" class="chip" data-filter="individual" aria-pressed="false">Индивидуальный</button></div>
+      <p class="body-s text-muted" id="filter-info" aria-live="polite">Показаны все курсы: 8</p>
+    </div>
+  </div>
+</section>
+<section class="section section--flush-top">
+  <div class="container blocks"><article class="block" id="basic" data-group="beginner">
+  <a class="block__photo" href="course-basic.html" tabindex="-1" aria-hidden="true"><img src="assets/img/course-basic.jpg" alt="" width="500" height="760" loading="lazy" decoding="async"></a>
+  <div class="block__info">
+    <div class="block__head"><span class="course-icon" data-gif="assets/icons/course-basic.gif"><img src="assets/icons/course-basic.png" alt="" width="80" height="80"></span><p class="overline">Для начинающих</p><h2 class="h3">Базовый кулинарный курс</h2></div>
+    <div class="block__meta"><p>Продолжительность: 4 недели</p><p>Стоимость: от 90 000 ₸</p><p class="body-s">Даты занятий выстраиваются индивидуально, с учётом ваших возможностей</p></div>
+    <p class="body">Вы изучите все важнейшие моменты приготовления еды: от техник нарезки и бульонов до соусов, различных блюд и сложных гастрономических конструкций. Научитесь понимать правила разделки и сочетания продуктов и узнаете тонкости блюд мировой кухни. Курс подходит тем, у кого начальный уровень знаний или нет его совсем.</p>
+    <ul class="sessions"><li>Сессия 1: Овощи</li><li>Сессия 2: Рыба</li><li>Сессия 3: Курица</li><li>Сессия 4: Мясо</li></ul>
+    <div class="actions"><a class="btn btn--primary" href="booking.html?course=basic" >Забронировать место</a><a class="link" href="course-basic.html" >Подробнее о курсе<svg class="icon icon-20" aria-hidden="true"><use href="assets/svg/icons.svg#arrow-right"></use></svg></a></div>
+  </div>
+</article><article class="block block--rev" id="mediterranean" data-group="thematic">
+  <a class="block__photo" href="course-mediterranean.html" tabindex="-1" aria-hidden="true"><img src="assets/img/photo-mediterranean.jpg" alt="" width="500" height="760" loading="lazy" decoding="async"></a>
+  <div class="block__info">
+    <div class="block__head"><span class="course-icon" data-gif="assets/icons/course-mediterranean.gif"><img src="assets/icons/course-mediterranean.png" alt="" width="80" height="80"></span><p class="overline">Тематический курс</p><h2 class="h3">Курс Средиземноморской кухни</h2></div>
+    <div class="block__meta"><p>Продолжительность: 4 недели</p><p>Стоимость: от 90 000 ₸</p><p class="body-s">Даты занятий выстраиваются индивидуально, с учётом ваших возможностей</p></div>
+    <p class="body">Вы приобретёте полезные теоретические знания и практические навыки приготовления популярных блюд. Освоите секреты и особенности традиционной средиземноморской кухни и научитесь готовить как настоящие профессионалы, легко и быстро.</p>
+    <ul class="sessions"><li>Сессия 1: Овощи</li><li>Сессия 2: Рыба</li><li>Сессия 3: Курица</li><li>Сессия 4: Мясо</li></ul>
+    <div class="actions"><a class="btn btn--primary" href="booking.html?course=mediterranean" >Забронировать место</a><a class="link" href="course-mediterranean.html" >Подробнее о курсе<svg class="icon icon-20" aria-hidden="true"><use href="assets/svg/icons.svg#arrow-right"></use></svg></a></div>
+  </div>
+</article><article class="block" id="eastern" data-group="thematic">
+  <a class="block__photo" href="course-eastern.html" tabindex="-1" aria-hidden="true"><img src="assets/img/course-eastern.jpg" alt="" width="500" height="760" loading="lazy" decoding="async"></a>
+  <div class="block__info">
+    <div class="block__head"><span class="course-icon" data-gif="assets/icons/course-eastern.gif"><img src="assets/icons/course-eastern.png" alt="" width="80" height="80"></span><p class="overline">Тематический курс</p><h2 class="h3">Курс Восточной кухни</h2></div>
+    <div class="block__meta"><p>Продолжительность: 3 недели</p><p>Стоимость: от 70 000 ₸</p><p class="body-s">Даты занятий выстраиваются индивидуально, с учётом ваших возможностей</p></div>
+    <p class="body">Для тех, кто испытывает огромную любовь к Восточной кухне. Кулинары стран Азии достигли совершенства в искусстве сочетать, на первый взгляд, самые несочетаемые продукты. Мы научим вас этому искусству.</p>
+    <ul class="sessions"><li>Сессия 1: Овощи</li><li>Сессия 2: Рыба</li><li>Сессия 3: Мясо</li></ul>
+    <div class="actions"><a class="btn btn--primary" href="booking.html?course=eastern" >Забронировать место</a><a class="link" href="course-eastern.html" >Подробнее о курсе<svg class="icon icon-20" aria-hidden="true"><use href="assets/svg/icons.svg#arrow-right"></use></svg></a></div>
+  </div>
+</article><article class="block block--rev" id="healthy" data-group="thematic">
+  <a class="block__photo" href="course-healthy.html" tabindex="-1" aria-hidden="true"><img src="assets/img/course-healthy.jpg" alt="" width="500" height="760" loading="lazy" decoding="async"></a>
+  <div class="block__info">
+    <div class="block__head"><span class="course-icon" data-gif="assets/icons/course-healthy.gif"><img src="assets/icons/course-healthy.png" alt="" width="80" height="80"></span><p class="overline">Тематический курс</p><h2 class="h3">Курс Здорового питания</h2></div>
+    <div class="block__meta"><p>Продолжительность: 3 недели</p><p>Стоимость: от 90 000 ₸</p><p class="body-s">Даты занятий выстраиваются индивидуально, с учётом ваших возможностей</p></div>
+    <p class="body">Вы научитесь выбирать полезные продукты и готовить вкусные блюда. Расскажем о 4 законах правильного питания, планировании меню и балансе рациона.</p>
+    <ul class="sessions"><li>Сессия 1: Овощи</li><li>Сессия 2: Фрукты</li><li>Сессия 3: Крупы</li><li>Сессия 4: Рыба, мясо, курица</li></ul>
+    <div class="actions"><a class="btn btn--primary" href="booking.html?course=healthy" >Забронировать место</a><a class="link" href="course-healthy.html" >Подробнее о курсе<svg class="icon icon-20" aria-hidden="true"><use href="assets/svg/icons.svg#arrow-right"></use></svg></a></div>
+  </div>
+</article><article class="block" id="italian" data-group="thematic">
+  <div class="block__photo"><img src="assets/img/mc-italian.jpg" alt="Курс Итальянской кухни" width="500" height="560" loading="lazy" decoding="async"></div>
+  <div class="block__info">
+    <div class="block__head"><span class="course-icon course-icon--static"><img src="assets/icons/course-italian.png" alt="" width="50" height="50"></span><p class="overline">Новый курс</p><h2 class="h3">Курс Итальянской кухни</h2></div>
+    <div class="block__meta"><p>Продолжительность: сообщим при старте набора</p><p>Стоимость: по запросу</p><p class="body-s">Предварительная запись уже открыта</p></div>
+    <p class="body">Курс готовится к запуску. Оставьте заявку, и мы первыми пригласим вас в группу.</p>
+    <div class="actions"><a class="btn btn--primary" href="booking.html?course=italian" >Оставить заявку</a><button type="button" class="link" data-open="callback" data-topic="Вопрос: Курс Итальянской кухни">Задать вопрос<svg class="icon icon-20" aria-hidden="true"><use href="assets/svg/icons.svg#arrow-right"></use></svg></button></div>
+  </div>
+</article><article class="block block--rev" id="pastry" data-group="thematic">
+  <div class="block__photo"><img src="assets/img/course-pastry.jpg" alt="Кондитерский курс" width="500" height="560" loading="lazy" decoding="async"></div>
+  <div class="block__info">
+    <div class="block__head"><span class="course-icon course-icon--static"><img src="assets/icons/course-pastry.png" alt="" width="50" height="50"></span><p class="overline">Новый курс</p><h2 class="h3">Кондитерский курс</h2></div>
+    <div class="block__meta"><p>Продолжительность: сообщим при старте набора</p><p>Стоимость: по запросу</p><p class="body-s">Предварительная запись уже открыта</p></div>
+    <p class="body">Скоро откроем набор. Оставьте заявку, чтобы одним из первых узнать программу и даты.</p>
+    <div class="actions"><a class="btn btn--primary" href="booking.html?course=pastry" >Оставить заявку</a><button type="button" class="link" data-open="callback" data-topic="Вопрос: Кондитерский курс">Задать вопрос<svg class="icon icon-20" aria-hidden="true"><use href="assets/svg/icons.svg#arrow-right"></use></svg></button></div>
+  </div>
+</article><article class="block" id="pro" data-group="thematic">
+  <div class="block__photo"><img src="assets/img/course-pro.jpg" alt="Курс для профессионалов" width="500" height="560" loading="lazy" decoding="async"></div>
+  <div class="block__info">
+    <div class="block__head"><span class="course-icon course-icon--static"><img src="assets/icons/course-pro.png" alt="" width="50" height="50"></span><p class="overline">Новый курс · продвинутый уровень</p><h2 class="h3">Курс для профессионалов</h2></div>
+    <div class="block__meta"><p>Продолжительность: сообщим при старте набора</p><p>Стоимость: по запросу</p><p class="body-s">Предварительная запись уже открыта</p></div>
+    <p class="body">Программу собираем вместе с шефом. Оставьте заявку, и мы расскажем, что в неё войдёт.</p>
+    <div class="actions"><a class="btn btn--primary" href="booking.html?course=pro" >Оставить заявку</a><button type="button" class="link" data-open="callback" data-topic="Вопрос: Курс для профессионалов">Задать вопрос<svg class="icon icon-20" aria-hidden="true"><use href="assets/svg/icons.svg#arrow-right"></use></svg></button></div>
+  </div>
+</article><article class="block block--rev" id="individual" data-group="individual">
+  <div class="block__photo"><img src="assets/img/photo-onsite.jpg" alt="Индивидуальный курс" width="500" height="560" loading="lazy" decoding="async"></div>
+  <div class="block__info">
+    <div class="block__head"><span class="course-icon course-icon--static"><img src="assets/icons/course-individual.png" alt="" width="50" height="50"></span><p class="overline">Индивидуально</p><h2 class="h3">Индивидуальный курс</h2></div>
+    <div class="block__meta"><p>Продолжительность: под ваши цели</p><p>Стоимость: зависит от программы</p><p class="body-s">Даты занятий выстраиваются индивидуально, с учётом ваших возможностей</p></div>
+    <p class="body">Шеф составит программу под ваши цели, уровень подготовки и удобный график.</p>
+    <div class="actions"><a class="btn btn--primary" href="booking.html?course=individual" >Оставить заявку</a><button type="button" class="link" data-open="callback" data-topic="Вопрос: Индивидуальный курс">Задать вопрос<svg class="icon icon-20" aria-hidden="true"><use href="assets/svg/icons.svg#arrow-right"></use></svg></button></div>
+  </div>
+</article></div>
+</section>
+<section class="section section--cream">
+  <div class="container stack" style="align-items:center;gap:30px">
+    <div class="sh sh--center"><h2 class="h2">Не знаете, какой курс выбрать?</h2><span class="sh__divider" aria-hidden="true"></span><p class="sh__subtitle">Оставьте телефон, и мы поможем подобрать программу</p></div>
+    <div class="actions actions--center actions--m-stack"><button type="button" class="btn btn--primary" data-open="callback">Обратный звонок<svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#phone"></use></svg></button><a class="btn btn--secondary" href="prices.html" >Сравнить цены</a></div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__logo-row"><a href="index.html" aria-label="ART COOK, на главную"><img src="assets/svg/logo-footer.svg" alt="ART COOK" width="110" height="110" loading="lazy"></a></div>
+    <nav class="footer__nav" aria-label="Меню в подвале"><a href="about.html">О школе</a><a href="courses.html">Курсы</a><a href="master-classes.html">Мастер-классы</a><a href="prices.html">Цены</a><a href="gift.html">Сертификаты</a><a href="contacts.html">Контакты</a></nav>
+    <p class="footer__addr">г. Алматы, ул. Весновка 65 · <a href="tel:+77010000000">+7 701 000 00 00</a></p>
+    <div class="socials">
+      <a class="social" href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#instagram"></use></svg></a>
+      <a class="social" href="https://wa.me/77010000000" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#whatsapp"></use></svg></a>
+      <a class="social" href="https://t.me/" target="_blank" rel="noopener" aria-label="Telegram"><svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#telegram"></use></svg></a>
+    </div>
+    <div class="footer__bottom"><a href="contacts.html#partners">Партнёрам</a><a href="privacy.html">Политика конфиденциальности</a><span>© ART COOK, <span data-year>2026</span></span></div>
+  </div>
+</footer>
+<div class="modal" id="callback" aria-hidden="true">
+  <div class="modal__scrim" data-close></div>
+  <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="cb-title">
+    <div data-state="form" class="stack gap-20">
+      <div class="modal__top"><h2 class="h4" id="cb-title">Обратный звонок</h2><button type="button" class="modal__close" aria-label="Закрыть" data-close><svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#close"></use></svg></button></div>
+      <p class="body">Оставьте телефон, и мы перезвоним в рабочее время</p>
+      <form class="form js-form" data-kind="callback" novalidate>
+        <input type="hidden" name="topic" value="Обратный звонок">
+        <p class="caption text-muted">* обязательные поля</p>
+        <div class="field" data-field="name">
+  <label class="field__label" for="f-name-cb">Имя *</label>
+  <div class="field__control"><input id="f-name-cb" name="name" type="text" placeholder="Введите имя" required autocomplete="name"></div>
+  <p class="field__helper">Укажите имя</p>
+</div>
+        <div class="field" data-field="phone">
+  <label class="field__label" for="f-phone-cb">Телефон *</label>
+  <div class="field__control"><input id="f-phone-cb" name="phone" type="tel" placeholder="+7 (___) ___-__-__" required inputmode="tel" autocomplete="tel"></div>
+  <p class="field__helper">Введите номер полностью: +7 (XXX) XXX-XX-XX</p>
+</div>
+        <div class="field" data-field="time">
+  <label class="field__label" for="f-time-cb">Удобное время</label>
+  <div class="field__control"><select id="f-time-cb" name="time"><option value="Любое" selected>Любое</option><option value="10:00–13:00">Утром, 10:00–13:00</option><option value="13:00–17:00">Днём, 13:00–17:00</option><option value="17:00–20:00">Вечером, 17:00–20:00</option></select><svg class="icon field__chevron" aria-hidden="true"><use href="assets/svg/icons.svg#chevron-down"></use></svg></div>
+  <p class="field__helper"></p>
+</div>
+        <label class="check" data-field="consent"><input type="checkbox" name="consent" required id="f-consent-cb"><span>Согласен на обработку персональных данных. <a href="privacy.html">Политика конфиденциальности</a></span></label><p class="form-error">Подтвердите согласие на обработку данных</p>
+        <button type="submit" class="btn btn--primary btn--block">Перезвоните мне<svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#phone"></use></svg></button>
+      </form>
+    </div>
+    <div data-state="success" class="stack gap-20">
+      <div class="modal__top"><h2 class="h4">Спасибо!</h2><button type="button" class="modal__close" aria-label="Закрыть" data-close><svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#close"></use></svg></button></div>
+      <p class="body">Мы перезвоним вам в рабочее время.</p>
+      <button type="button" class="btn btn--secondary btn--block" data-close>Закрыть</button>
+    </div>
+  </div>
+</div>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
